@@ -1,0 +1,1 @@
+print("test-skill-1: announce")

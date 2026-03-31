@@ -1,0 +1,28 @@
+{
+  "name": "Oxus Playground",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2.5.7": {},
+    "ghcr.io/notwillk/devcontainer-features/pnpm": {},
+    "ghcr.io/devcontainers/features/node": {
+      "version": "20"
+    },
+    "ghcr.io/devcontainers/features/python": {},
+    "ghcr.io/devcontainers-extra/features/uv:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "ms-python.python",
+        "ms-vscode.vscode-typescript-next",
+        "redhat.vscode-yaml",
+        "pnpm.pnpm-vscode"
+      ]
+    }
+  },
+  "remoteUser": "vscode",
+  "containerEnv": {
+    "OXUS_ROOT": "${containerWorkspaceFolder}"
+  }
+}

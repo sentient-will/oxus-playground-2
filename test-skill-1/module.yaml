@@ -1,0 +1,7 @@
+module:
+  id: test-skill-1
+  version: 1.0.0
+submodules:
+  - id: skill
+    capabilities:
+      - id: skill
