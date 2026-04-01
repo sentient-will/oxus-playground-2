@@ -1,5 +1,5 @@
 {
-  "name": "Oxus Playground",
+  "name": "Oxus Playground 2",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2.5.7": {},
@@ -22,7 +22,8 @@
     }
   },
   "remoteUser": "vscode",
-  "containerEnv": {
-    "OXUS_ROOT": "${containerWorkspaceFolder}"
+  "remoteEnv": {
+    "OXUS_ROOT": "${containerWorkspaceFolder}",
+    "PATH": "${containerWorkspaceFolder}/node_modules/.bin:${containerEnv:PATH}"
   }
 }
