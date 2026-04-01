@@ -1,3 +1,4 @@
+skill = """
 ---
 name: test-skill-1
 description: announces itself when executed
@@ -6,5 +7,9 @@ description: announces itself when executed
 to know what version of the skill is being tested, execute the following command in the terminal:
 
 ```bash
-python announce.py
+python -c 'print("test-skill-1: announce")'
 ```
+"""
+
+async def handler(request: dict) -> dict:
+    return skill

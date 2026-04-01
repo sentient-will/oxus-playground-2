@@ -1,7 +1,10 @@
 module:
   id: test-skill-1
-  version: 1.0.0
+  version: 0.0.1
 submodules:
   - id: skill
     capabilities:
       - id: skill
+        languages: [python]
+        handler: ./generate.py
+        description: A test skill that just announces itself
