@@ -11,5 +11,12 @@ python -c 'print("test-skill-1: announce")'
 ```
 """
 
+
 async def handler(request: dict) -> dict:
-    return skill
+    req = request or {}
+    text = req.get("text") or ""
+    return {
+        "text": skill,
+        "echo": text,
+        "moduleVersion": "0.0.1",
+    }

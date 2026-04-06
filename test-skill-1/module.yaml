@@ -1,3 +1,5 @@
+# Push target: clone sentient-will/oxus-playground-2 and replace the `test-skill-1/` folder with this directory, then push.
+# Oxus requires `version` on each capability (see module schema).
 module:
   id: test-skill-1
   version: 0.0.1
@@ -5,6 +7,17 @@ submodules:
   - id: skill
     capabilities:
       - id: skill
+        version: 1.0.0
         languages: [python]
         handler: ./generate.py
         description: A test skill that just announces itself
+        request:
+          type: object
+          fields:
+            text: string
+        response:
+          type: object
+          fields:
+            text: string
+            echo: string
+            moduleVersion: string
