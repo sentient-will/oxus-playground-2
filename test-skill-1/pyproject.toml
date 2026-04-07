@@ -1,0 +1,9 @@
+[project]
+name = "minimal-py-provider"
+version = "0.0.1"
+requires-python = ">=3.10"
+description = "Oxus minimal Python provider (hello capability only)."
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

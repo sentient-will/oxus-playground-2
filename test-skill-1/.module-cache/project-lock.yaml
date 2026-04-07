@@ -1,0 +1,12 @@
+version: '2.0'
+name: test-skill-1
+modules:
+  - type: local-fs
+    uri: .
+    moduleId: minimal-py-provider
+    moduleVersion: 0.0.1
+    cache:
+      repoPath: local-fs/minimal-py-provider
+      modulePath: .
+      manifest: module.yaml
+generatedAt: '2026-04-07T12:17:40.667Z'

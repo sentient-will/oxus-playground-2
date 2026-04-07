@@ -1,23 +1,20 @@
-# Push target: clone sentient-will/oxus-playground-2 and replace the `test-skill-1/` folder with this directory, then push.
-# Oxus requires `version` on each capability (see module schema).
+# Standalone payload: copy this folder to a new git repo root and push (see minimal-python-consumer demo script).
 module:
-  id: test-skill-1
+  id: minimal-py-provider
   version: 0.0.1
-submodules:
-  - id: skill
-    capabilities:
-      - id: skill
-        version: 1.0.0
-        languages: [python]
-        handler: ./generate.py
-        description: A test skill that just announces itself
-        request:
-          type: object
-          fields:
-            text: string
-        response:
-          type: object
-          fields:
-            text: string
-            echo: string
-            moduleVersion: string
+  languages: [python]
+  description: Test skill 1 — one hello capability.
+capabilities:
+  - id: hello
+    version: 1.0.0
+    languages: [python]
+    handler: ./src/capabilities/hello.py
+    description: Returns a greeting for a name.
+    request:
+      type: object
+      fields:
+        name: string
+    response:
+      type: object
+      fields:
+        message: string
