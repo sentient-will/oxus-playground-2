@@ -1,0 +1,20 @@
+# Standalone TypeScript module — same shape as test-skill-1 (minimal hello capability).
+module:
+  id: minimal-ts-provider
+  version: 0.0.1
+  languages: [typescript]
+  description: Minimal TypeScript provider — one hello capability.
+capabilities:
+  - id: hello
+    version: 1.0.0
+    languages: [typescript]
+    handler: ./src/capabilities/hello.ts
+    description: Returns a greeting for a name.
+    request:
+      type: object
+      fields:
+        name: string
+    response:
+      type: object
+      fields:
+        message: string

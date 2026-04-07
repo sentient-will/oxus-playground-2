@@ -1,0 +1,12 @@
+version: '2.0'
+name: test-ts-1
+modules:
+  - type: local-fs
+    uri: .
+    moduleId: minimal-ts-provider
+    moduleVersion: 0.0.1
+    cache:
+      repoPath: local-fs/minimal-ts-provider
+      modulePath: .
+      manifest: module.yaml
+generatedAt: '2026-04-07T13:36:42.049Z'

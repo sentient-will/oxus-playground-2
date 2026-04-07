@@ -1,0 +1,14 @@
+{
+  "name": "@oxus-examples/minimal-ts-provider",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Minimal TypeScript provider module — one hello capability.",
+  "scripts": {
+    "build": "oxus build --no-interactive"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.2",
+    "oxus-framework": "git+https://github.com/sentient-xyz/oxus-framework.git",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,0 +1,11 @@
+---
+description: "Minimal TypeScript provider — one hello capability. Provides: hello. Use when implementing or invoking: `hello`."
+globs: /**
+alwaysApply: false
+---
+# minimal-ts-provider (v0.0.1)
+Minimal TypeScript provider — one hello capability.
+Provides: `hello`.
+
+
+Full merged skill: `.cursor/skills/minimal-ts-provider/SKILL.md` (same as `generated/SKILL.md` in this module).
