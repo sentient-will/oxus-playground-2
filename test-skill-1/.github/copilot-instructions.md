@@ -6,7 +6,7 @@
 
 ### minimal-py-provider (v0.0.1)
 
-Minimal Python provider — one hello capability (for git + Oxus pm demos).
+Test skill 1 — one hello capability.
 
 Provides: `hello`
 

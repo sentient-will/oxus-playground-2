@@ -7,6 +7,6 @@
     "build": "oxus build --no-interactive"
   },
   "devDependencies": {
-    "oxus-framework": "file:../../oxus-framework"
+    "oxus-framework": "git+https://github.com/sentient-xyz/oxus-framework.git"
   }
 }

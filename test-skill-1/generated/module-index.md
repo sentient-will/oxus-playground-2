@@ -16,7 +16,7 @@ description: Index of all capability modules in this project. Read this file fir
 
 ## minimal-py-provider (v0.0.1)
 
-Minimal Python provider — one hello capability (for git + Oxus pm demos).
+Test skill 1 — one hello capability.
 
 **Capabilities:**
 - `hello` — Returns a greeting for a name. · req `{ name: string }` → res `{ message: string }`

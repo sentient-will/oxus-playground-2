@@ -1,13 +1,13 @@
 {
   "version": "1",
-  "generatedAt": "2026-04-07T12:17:40.706Z",
+  "generatedAt": "2026-04-07T12:24:42.649Z",
   "projectRootRelative": ".",
   "indexFile": "generated/oxus-skills-index.json",
   "modules": [
     {
       "id": "minimal-py-provider",
       "version": "0.0.1",
-      "description": "Minimal Python provider — one hello capability (for git + Oxus pm demos).",
+      "description": "Test skill 1 — one hello capability.",
       "moduleDirRelative": ".",
       "lockfileResolved": true,
       "lockfileSourceHint": "local `.` (.)",
