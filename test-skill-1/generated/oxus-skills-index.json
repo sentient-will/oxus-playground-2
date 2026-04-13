@@ -1,6 +1,6 @@
 {
-  "version": "1",
-  "generatedAt": "2026-04-07T12:24:42.649Z",
+  "version": "3",
+  "generatedAt": "2026-04-13T13:57:57.645Z",
   "projectRootRelative": ".",
   "indexFile": "generated/oxus-skills-index.json",
   "modules": [
@@ -27,7 +27,22 @@
           "useWhen": "Use when working on minimal-py-provider/hello: Returns a greeting for a name."
         }
       ],
-      "entitlements": []
+      "entitlements": [],
+      "executableSkills": [
+        {
+          "id": "hello-cli",
+          "description": "Print a greeting to stdout; optional name as first arg after `oxus skills run … --`.",
+          "command": "python3",
+          "args": [
+            "./scripts/hello_cli.py"
+          ],
+          "workingDirectory": ".",
+          "risk": "low",
+          "capability": "hello",
+          "invokeHint": "oxus skills run minimal-py-provider.hello-cli",
+          "commandLine": "python3 ./scripts/hello_cli.py"
+        }
+      ]
     }
   ],
   "edges": []

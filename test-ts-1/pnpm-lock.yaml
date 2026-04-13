@@ -13,7 +13,7 @@ importers:
         version: 0.24.2
       oxus-framework:
         specifier: git+https://github.com/sentient-xyz/oxus-framework.git
-        version: git+https://git@github.com:sentient-xyz/oxus-framework.git#5a00e0f515bbef465a7cde457486c6736febbc3b
+        version: git+https://git@github.com:sentient-xyz/oxus-framework.git#690a116c895beda0269f356034c37ce8829c1874
       typescript:
         specifier: ^5.9.0
         version: 5.9.3
@@ -197,9 +197,9 @@ packages:
   neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  oxus-framework@git+https://git@github.com:sentient-xyz/oxus-framework.git#5a00e0f515bbef465a7cde457486c6736febbc3b:
-    resolution: {commit: 5a00e0f515bbef465a7cde457486c6736febbc3b, repo: git@github.com:sentient-xyz/oxus-framework.git, type: git}
-    version: 1.0.0
+  oxus-framework@git+https://git@github.com:sentient-xyz/oxus-framework.git#690a116c895beda0269f356034c37ce8829c1874:
+    resolution: {commit: 690a116c895beda0269f356034c37ce8829c1874, repo: git@github.com:sentient-xyz/oxus-framework.git, type: git}
+    version: 1.0.1
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -360,7 +360,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  oxus-framework@git+https://git@github.com:sentient-xyz/oxus-framework.git#5a00e0f515bbef465a7cde457486c6736febbc3b:
+  oxus-framework@git+https://git@github.com:sentient-xyz/oxus-framework.git#690a116c895beda0269f356034c37ce8829c1874:
     dependencies:
       chokidar: 4.0.3
       handlebars: 4.7.9

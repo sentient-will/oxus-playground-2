@@ -9,4 +9,4 @@ modules:
       repoPath: local-fs/minimal-py-provider
       modulePath: .
       manifest: module.yaml
-generatedAt: '2026-04-07T12:17:40.667Z'
+generatedAt: '2026-04-07T14:06:10.579Z'

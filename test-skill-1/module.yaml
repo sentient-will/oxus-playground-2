@@ -1,9 +1,18 @@
-# Standalone payload: copy this folder to a new git repo root and push (see minimal-python-consumer demo script).
+# Standalone payload: copy this folder to a new git repo root and push.
 module:
   id: minimal-py-provider
   version: 0.0.1
   languages: [python]
   description: Test skill 1 — one hello capability.
+  skills:
+    executableSkills:
+      - id: hello-cli
+        description: Print a greeting to stdout; optional name as first arg after `oxus skills run … --`.
+        command: python3
+        args: ["./scripts/hello_cli.py"]
+        workingDirectory: .
+        risk: low
+        capability: hello
 capabilities:
   - id: hello
     version: 1.0.0

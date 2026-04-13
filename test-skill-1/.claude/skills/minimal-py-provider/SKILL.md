@@ -12,6 +12,17 @@ metadata:
 Test skill 1 — one hello capability.
 
 
+## Executable skills (scripts)
+
+Named argv-based commands declared in **`module.skills.executableSkills`**. Run from the repo root with the Oxus CLI (uses the resolved module root, including git lockfile providers after `oxus pm sync`):
+
+- **`hello-cli`** (risk: **low**) — `oxus skills run minimal-py-provider.hello-cli`
+  - Print a greeting to stdout; optional name as first arg after `oxus skills run … --`.
+  - Command: `python3 ./scripts/hello_cli.py` · cwd: `.` (relative to module root)
+  - Related capability: `hello`
+
+Optional allowlist: **`.oxus/skills-allow.yaml`** (see `oxus skills run --help`). Extra arguments after `--` are appended to the skill argv.
+
 
 ## Capabilities
 
