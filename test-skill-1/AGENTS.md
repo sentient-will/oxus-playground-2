@@ -4,7 +4,7 @@
 
 ## Modules
 
-### minimal-py-provider (v0.0.1)
+### test-skill-1 (v0.0.1)
 
 Test skill 1 — one hello capability.
 
@@ -18,4 +18,4 @@ pnpm install
 pnpm -r --filter './submodules/*' exec oxus build
 ```
 
-Run `oxus build` after editing any `module.yaml`. Per-module detail in `generated/SKILL.md` or `CLAUDE.md`.
+Run `oxus build` after editing any `oxus.yaml`. Per-module detail in `generated/SKILL.md` or `CLAUDE.md`.

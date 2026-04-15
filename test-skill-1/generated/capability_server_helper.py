@@ -42,11 +42,11 @@ def setup_capability_router(app: "FastAPI", module_root: Path) -> APIRouter:
     
     This function creates a FastAPI router with the generic capability endpoint
     and includes it in your application. It automatically handles routing to
-    Python handlers based on capability IDs from module.yaml.
+    Python handlers based on capability IDs from oxus.yaml.
     
     Args:
         app: Your FastAPI application instance
-        module_root: Path to the module root directory (where module.yaml is located)
+        module_root: Path to the module root directory (where oxus.yaml is located)
         
     Returns:
         The created APIRouter instance (useful for custom configuration)
@@ -72,13 +72,13 @@ def setup_capability_router(app: "FastAPI", module_root: Path) -> APIRouter:
         """Generic HTTP endpoint for Python capabilities.
         
         This endpoint dynamically routes requests to Python handlers based on
-        the capability_id. Handlers are automatically discovered from module.yaml.
+        the capability_id. Handlers are automatically discovered from oxus.yaml.
         
         Supports both regular JSON responses and SSE (Server-Sent Events) streaming
         responses. If a handler returns an async generator, it will be streamed as SSE.
         
         Args:
-            capability_id: The capability ID from module.yaml
+            capability_id: The capability ID from oxus.yaml
             request: FastAPI request object
             
         Returns:

@@ -2,7 +2,7 @@
 description: "Full project detail — 1 modules with ports, env vars, and quick start. Load when you need the complete picture."
 alwaysApply: false
 ---
-## minimal-py-provider (v0.0.1)
+## test-skill-1 (v0.0.1)
 
 Test skill 1 — one hello capability.
 

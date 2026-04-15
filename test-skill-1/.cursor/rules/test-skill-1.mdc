@@ -1,0 +1,11 @@
+---
+description: "Test skill 1 — one hello capability. Provides: hello. Use when implementing or invoking: `hello`."
+globs: /**
+alwaysApply: false
+---
+# test-skill-1 (v0.0.1)
+Test skill 1 — one hello capability.
+Provides: `hello`.
+
+
+Full merged skill: `.cursor/skills/test-skill-1/SKILL.md` (same as `generated/SKILL.md` in this module).

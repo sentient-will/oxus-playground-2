@@ -1,11 +1,11 @@
 {
   "version": "3",
-  "generatedAt": "2026-04-13T13:57:57.645Z",
+  "generatedAt": "2026-04-15T14:54:18.659Z",
   "projectRootRelative": ".",
   "indexFile": "generated/oxus-skills-index.json",
   "modules": [
     {
-      "id": "minimal-py-provider",
+      "id": "test-skill-1",
       "version": "0.0.1",
       "description": "Test skill 1 — one hello capability.",
       "moduleDirRelative": ".",
@@ -14,17 +14,17 @@
       "paths": {
         "generatedSkill": "generated/SKILL.md",
         "entitlements": "generated/entitlements.ts",
-        "cursorSkill": ".cursor/skills/minimal-py-provider/SKILL.md",
-        "claudeSkill": ".claude/skills/minimal-py-provider/SKILL.md",
-        "rootSkills": "skills/minimal-py-provider/SKILL.md",
-        "cursorRule": ".cursor/rules/minimal-py-provider.mdc"
+        "cursorSkill": ".cursor/skills/test-skill-1/SKILL.md",
+        "claudeSkill": ".claude/skills/test-skill-1/SKILL.md",
+        "rootSkills": "skills/test-skill-1/SKILL.md",
+        "cursorRule": ".cursor/rules/test-skill-1.mdc"
       },
       "capabilities": [
         {
           "id": "hello",
           "version": "1.0.0",
           "description": "Returns a greeting for a name.",
-          "useWhen": "Use when working on minimal-py-provider/hello: Returns a greeting for a name."
+          "useWhen": "Use when working on test-skill-1/hello: Returns a greeting for a name."
         }
       ],
       "entitlements": [],
@@ -39,7 +39,7 @@
           "workingDirectory": ".",
           "risk": "low",
           "capability": "hello",
-          "invokeHint": "oxus skills run minimal-py-provider.hello-cli",
+          "invokeHint": "oxus skills run test-skill-1.hello-cli",
           "commandLine": "python3 ./scripts/hello_cli.py"
         }
       ]

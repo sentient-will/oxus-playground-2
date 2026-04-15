@@ -14,13 +14,13 @@ description: Index of all capability modules in this project. Read this file fir
 
 ---
 
-## minimal-py-provider (v0.0.1)
+## test-skill-1 (v0.0.1)
 
 Test skill 1 — one hello capability.
 
 **Capabilities:**
 - `hello` — Returns a greeting for a name. · req `{ name: string }` → res `{ message: string }`
-**Full skill (same content):** `.cursor/skills/minimal-py-provider/SKILL.md` · `.claude/skills/minimal-py-provider/SKILL.md` · `skills/minimal-py-provider/SKILL.md` — **Cursor rule (globs):** `.cursor/rules/minimal-py-provider.mdc`
+**Full skill (same content):** `.cursor/skills/test-skill-1/SKILL.md` · `.claude/skills/test-skill-1/SKILL.md` · `skills/test-skill-1/SKILL.md` — **Cursor rule (globs):** `.cursor/rules/test-skill-1.mdc`
 
 
 

@@ -4,7 +4,7 @@ alwaysApply: true
 ---
 # Project — 1 modules
 
-- **minimal-py-provider** (v0.0.1) · provides: `hello`
+- **test-skill-1** (v0.0.1) · provides: `hello`
 
 Per-module detail auto-loads via `.cursor/rules/{module}.mdc` when editing that module.
-Run `oxus build` after editing any `module.yaml`.
+Run `oxus build` after editing any `oxus.yaml`.
