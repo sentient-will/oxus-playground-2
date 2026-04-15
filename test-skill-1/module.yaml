@@ -1,6 +1,6 @@
-# Standalone payload: copy this folder to a new git repo root and push.
+
 module:
-  id: minimal-py-provider
+  id: test-skill-1
   version: 0.0.1
   languages: [python]
   description: Test skill 1 — one hello capability.
