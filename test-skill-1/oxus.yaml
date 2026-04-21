@@ -13,6 +13,11 @@ module:
         workingDirectory: .
         risk: low
         capability: hello
+        status: approved
+        owner: vipulsinghal
+        changeTicket: CHG-1001
+        provenance:
+          digest: "sha256:1111111111111111111111111111111111111111111111111111111111111111"
 capabilities:
   - id: hello
     version: 1.0.0

@@ -1,6 +1,6 @@
 {
   "version": "3",
-  "generatedAt": "2026-04-15T14:54:18.659Z",
+  "generatedAt": "2026-04-21T11:50:06.827Z",
   "projectRootRelative": ".",
   "indexFile": "generated/oxus-skills-index.json",
   "modules": [
@@ -38,6 +38,26 @@
           ],
           "workingDirectory": ".",
           "risk": "low",
+          "runAs": "read_only",
+          "requiresApproval": false,
+          "timeoutMs": 300000,
+          "maxOutputBytes": 1000000,
+          "maxConcurrency": 1,
+          "status": "approved",
+          "owner": "vipulsinghal",
+          "reviewers": [],
+          "changeTicket": "CHG-1001",
+          "intentTags": [],
+          "costHint": "medium",
+          "permissions": {
+            "filesystem": "read",
+            "network": "none",
+            "env": "read",
+            "process": "spawn"
+          },
+          "provenance": {
+            "digest": "sha256:1111111111111111111111111111111111111111111111111111111111111111"
+          },
           "capability": "hello",
           "invokeHint": "oxus skills run test-skill-1.hello-cli",
           "commandLine": "python3 ./scripts/hello_cli.py"
